@@ -1,9 +1,8 @@
 
 function mySplice(arr1, arr2, n) {
-    var myArray = arr2.slice();
     arr1.reverse();
-    myArray.splice(n, 0, ...arr1);
-  return myArray;
+    arr2.splice(n, 0, ...arr1);
+  return arr2;
 }
-console.log(mySplice([1,2,3], [4,5], 2));
+console.log(mySplice(["b", "c"], ["a", "d"], 1));
 module.exports = mySplice;

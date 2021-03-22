@@ -9,10 +9,9 @@ function myMutation(arr) {
         }
     }
     if (count == myArray2.length) {
-        return true
-    }
-    else { 
-        return false; 
+        return true;
+    } else {
+        return false;
     }
 }
 console.log(myMutation(arr1));
